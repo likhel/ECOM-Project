@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.2/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+<body>
+
+    <div class="flex justify-center items-center h-screen bg-gray-100">
+        <div class="w-full max-w-md bg-white shadow-md rounded-lg p-6">
+          <h2 class="text-2xl font-bold mb-6 text-center text-gray-700">Sign Up</h2>
+          <form>
+            <div class="mb-4">
+              <label class="block text-gray-700 text-sm font-bold mb-2" for="username">
+                Username
+              </label>
+              <div class = 'flex items-center border rounded-lg px-4 py-2'>
+                <input
+                  type="text"
+                  id="username"
+                  class="w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Enter your username"
+                  required
+                />
+                <i class='text-green-600 ml-4 fa-solid fa-user'></i>
+              </div>
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                Email Address
+              </label>
+              <div class="flex items-center border rounded-lg px-4 py-2">
+                
+                <input
+                  type="email"
+                  id="email"
+                  class="w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Enter your email"
+                  required
+                />
+                <i  class="text-green-600 ml-4 fa-solid fa-envelope"></i>
+              </div>
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                Password
+              </label>
+              <div class='flex items-center border rounded-lg px-4 py-2'>
+                <input
+                  type="password"
+                  id="password"
+                  class="w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Enter your password"
+                  required
+                />
+                <i  class="text-green-600 ml-4 fa-solid fa-lock"></i>
+              </div>
+            </div>
+            <div class="mb-4">
+              <label class="block text-gray-700 text-sm font-bold mb-2" for="confirmPassword">
+                Confirm Password
+              </label>
+              <div class='flex items-center border rounded-lg px-4 py-2'>
+                <input
+                  type="password"
+                  id="confirmpassword"
+                  class="w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  placeholder="Confirm your password"
+                  required
+                />
+                <i class="text-green-600 ml-4 fa-solid fa-lock"></i>
+              </div>
+            </div>
+            <button
+              type="submit"
+              class="w-full bg-green-600 text-white font-bold py-2 rounded-lg hover:bg-white hover:text-green-600 transition duration-200 border-2 border-green-600 border-solid"
+            >
+              Sign Up
+            </button>
+          </form>
+          <div class="mt-6 text-center">
+            <p class="text-sm text-gray-600">
+              Already have an account?{" "}
+              <a href="login.html" class="text-blue-500 hover:underline">
+                Log in
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>
